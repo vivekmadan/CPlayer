@@ -33,6 +33,7 @@ https://www.cricapi.com/how-to-use/player-finder.aspx
 
 ## Tech Stack
 - Spring Boot
+- MySQL, MongoDB
 - API Gateway
 - Eureka Server
 - Message Broker (RabbitMQ)
@@ -67,7 +68,7 @@ https://www.cricapi.com/how-to-use/player-finder.aspx
 - Create an API Gateway which can serve UI and API Request from same host
 
 - Building the Favourite Service
-   1. Building a server in Spring Boot to facilitate CRUD operation over favourite players stored in MySQL
+   1. Building a server in Spring Boot to facilitate CRUD operation over favourite players stored in MongoDB
    2. Writing Swagger Documentation
    3. Build a Producer for RabbitMQ which
       i. Produces events like what user added to favourite list
@@ -78,7 +79,7 @@ https://www.cricapi.com/how-to-use/player-finder.aspx
 
 - Building the PlayerRecommendationService
    1. Building a Consumer for RabbitMQ
-      - i. On a new event generated Update the recommendations in the system
+      - i. On a new event generated Update the recommendations in the system. Store the recommendation list in MongoDB.
       - ii. Maintain list of unique recommended players based on what user added into favourite list and keep counter for number of users added a particular player into favourite list
    2. Build an API to get Recommendations
    3. Writing Swagger Documentation
