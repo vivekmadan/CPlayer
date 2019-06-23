@@ -37,6 +37,8 @@
 		<module>userservice</module>
 		<module>playerrecommendationservice</module>
 		<module>favouriteservice</module>
+		<module>eurekaserver</module>
+		<module>zuulservice</module>
 	</modules>
 
 </project>

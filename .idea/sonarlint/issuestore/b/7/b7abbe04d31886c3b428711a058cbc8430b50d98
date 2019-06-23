@@ -1,0 +1,7 @@
+
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8µÎ¬ë³-
+Dsquid:S1452A"&Remove usage of generic wildcard type.(”é«¦8¤—¥‰´-
+‹squid:UselessImportCheck"`Remove this unused import 'com.stackroute.favouriteservice.exception.UserAlreadyExistException'.(þÊ¬Æ8¢òèé³-
+Dsquid:S1452"&Remove usage of generic wildcard type.(Â‰›…8¢òèé³-
+Isquid:S1452."&Remove usage of generic wildcard type.(®žéÉùÿÿÿÿ8ÎÅŽ‰´-
+vsquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈË‰J8óµÖŠ´-

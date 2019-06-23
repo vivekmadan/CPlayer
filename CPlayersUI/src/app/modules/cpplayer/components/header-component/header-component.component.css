@@ -1,0 +1,31 @@
+.mat-toolbar{
+    background-color: #424242;
+    height: 12vh;
+    display: flex;
+    padding-top: 1.5vh;
+}
+
+.image-class{
+    height: 10vh;
+    margin-right: 5vw;
+}
+
+.mat-button{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    color: #79e024;
+}
+
+.mat-menu-item{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+}
+
+.mat-form-field {
+    color: #79e024;
+}
+.mat-form-field.searchField {
+    margin-left: auto;
+    margin-top: 1em;
+    width: 30vw;
+}
