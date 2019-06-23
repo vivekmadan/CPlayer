@@ -44,13 +44,13 @@ public class BeanConfiguration {
         return rabbitTemplate;
     }
 
-    @Bean
+   /* @Bean
     public AmqpAdmin admin(final ConnectionFactory connectionFactory, DirectExchange directExchange, Queue queue, Binding binding){
         RabbitAdmin rabbitAdmin = new RabbitAdmin(connectionFactory);
         rabbitAdmin.declareExchange(directExchange);
         rabbitAdmin.declareQueue(queue);
         rabbitAdmin.declareBinding(binding);
         return rabbitAdmin;
-    }
+    }*/
 
 }
