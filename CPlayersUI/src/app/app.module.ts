@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CpplayerModule } from './modules/cpplayer/cpplayer.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CpplayerModule } from './modules/cpplayer/cpplayer.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CpplayerModule
+    CpplayerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

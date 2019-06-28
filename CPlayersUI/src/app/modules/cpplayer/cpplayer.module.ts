@@ -13,9 +13,10 @@ import {MatInputModule} from '@angular/material/input';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import {MatCardModule} from '@angular/material/card';
+import { CardContainerComponent } from './components/card-container/card-container.component';
 
 @NgModule({
-  declarations: [CardComponentComponent, HeaderComponentComponent, RegisterComponent, LoginComponent],
+  declarations: [CardComponentComponent, HeaderComponentComponent, RegisterComponent, LoginComponent, CardContainerComponent],
   imports: [
     CommonModule,
     MatToolbarModule,
@@ -30,6 +31,7 @@ import {MatCardModule} from '@angular/material/card';
   ],
   exports: [
     CardComponentComponent,
+    CardContainerComponent,
     HeaderComponentComponent
   ]
 })

@@ -1,0 +1,39 @@
+.example-card{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    width: 12vw;
+    margin: 2em;
+    text-align: center;
+    background-color: #424242;
+    margin-top: 0vh;
+}
+
+.header{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    color: #79e024;
+}
+
+.mat-card-subtitle{
+    color:#79e024;
+} 
+
+.image{
+    height: 160px;
+    width: 156px;
+    margin: auto;
+}
+
+.mat-icons{
+    color: #fff;
+}
+
+.mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent{
+    background-color: #9c1148;
+    margin-left: 10px;
+}
+
+.material-icons{
+    color: #fff;
+}
