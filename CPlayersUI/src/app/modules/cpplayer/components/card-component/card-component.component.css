@@ -30,10 +30,15 @@
 }
 
 .mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent{
-    background-color: #9c1148;
+    background-color: #79e024;
     margin-left: 10px;
 }
 
 .material-icons{
     color: #fff;
+}
+
+.mat-fab, .mat-flat-button, .mat-mini-fab, .mat-raised-button {
+    color: #424242;
+    background-color: #79e024;
 }

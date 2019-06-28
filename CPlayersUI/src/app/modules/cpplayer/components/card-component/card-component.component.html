@@ -6,15 +6,16 @@
   <img class="image" mat-card-image [src]="player.imageUrl" alt="Image">
   <mat-card-actions>
 
+    <button mat-raised-button
+    matToolTip = "See Details">Details</button>
     <!-- <button class="addbutton"
-    *ngIf="!wishData"
     (click)="addToWishList(track)"
-    matTooltip = "Add to WishList"  
+    matTooltip = "See Details"  
     mat-mini-fab>
-      <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
-    </button>
+      Details
+    </button> -->
 
-    <button class="deleteButton"
+    <!--<button class="deleteButton"
     *ngIf="wishData"
     (click)="deleteFromWishList(track)"
     matTooltip = "Delete from WishList"  
