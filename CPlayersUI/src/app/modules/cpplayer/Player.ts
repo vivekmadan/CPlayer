@@ -1,4 +1,4 @@
-export class Player{
+export class Player {
     pid: string;
     name: string;
     country: string;
@@ -6,4 +6,5 @@ export class Player{
     bowlingStyle: string;
     profile: string;
     imageUrl: string;
+    count: number;
 }

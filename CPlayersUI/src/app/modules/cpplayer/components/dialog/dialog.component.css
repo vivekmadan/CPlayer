@@ -1,0 +1,12 @@
+.mat-button, .mat-icon-button, .mat-stroked-button {
+    color: #424242;
+    background: #79e024;
+    font-size: 1.2em;
+    font-family: 'Acme',sans-serif;
+}
+
+.image{
+    height: 160px;
+    width: 156px;
+    margin: auto;
+}

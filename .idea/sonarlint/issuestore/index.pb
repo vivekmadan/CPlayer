@@ -107,3 +107,11 @@ splayerrecommendationservice/src/test/java/com/stackroute/playerrecommendationse
 Äplayerrecommendationservice/src/main/java/com/stackroute/playerrecommendationservice/controller/RecommendedPlayerController.java,c\3\c3fac40b808205b2071ace9655a65f2e35128522
 µ
 Ñplayerrecommendationservice/src/test/java/com/stackroute/playerrecommendationservice/controller/RecommendedPlayerControllerTest.java,d\8\d81a634e00de00850c94ead4d042043ab1e65bc3
+á
+Wuserservice/src/test/java/com/stackroute/userservice/repository/UserRepositoryTest.java,1\c\1ca4ac898219cfad24282bce51c2ef58e3ebbcce
+Å
+Quserservice/src/test/java/com/stackroute/userservice/service/UserServiceTest.java,c\6\c633c46c1bde407a7d1b880173979048c9321e9e
+á
+Wuserservice/src/test/java/com/stackroute/userservice/controller/UserControllerTest.java,9\0\909d445467812bd8430b69bf57384dbc037d79dc
+Ö
+Uuserservice/src/test/java/com/stackroute/userservice/UserServiceApplicationTests.java,7\c\7c2f438bab7c474a8a30f8032df971c08d9a3ff3

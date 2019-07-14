@@ -4,9 +4,10 @@
 	height: 50vh;
 	width: 40vw;
 	text-align: center;
-	background-color: #464343;
+	background-color: #424242;
 	margin: auto;
-	margin-bottom: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 15vh;
 }
 
 mat-card-title{

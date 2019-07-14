@@ -22,17 +22,16 @@ export class CardContainerComponent implements OnInit {
 
   onEnter(value: string) {
     this.players = [];
-    console.log("Value: " + value);
+    //console.log("Value: " + value);
     this.playerService.findPlayer(value).subscribe(players => {
-      console.log("Players => " + players);
+      //console.log("Players => " + players);
       const data = players['data'];
       data.forEach(player => {
         const pid = player['pid'];
-        console.log("Pid: " + pid);
+        //console.log("Pid: " + pid);
 
         this.playerService.playerStatistic(pid).subscribe(playerStats => {
-          console.log("Full Name: " + playerStats['name']);
-          console.log("URL " + playerStats['imageURL']);
+          //console.log(playerStats);
           var player = new Player();
           player.pid = pid;
           player.name = playerStats['name'];

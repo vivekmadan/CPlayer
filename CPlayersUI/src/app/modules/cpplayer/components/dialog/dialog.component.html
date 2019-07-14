@@ -1,3 +1,18 @@
-<p>
-  dialog works!
-</p>
+<h1 mat-dialog-title>{{player.name}} ({{player.country}})</h1>
+
+<div mat-dialog-content>
+  <p><img class="image" src="{{player.imageUrl}}" alt="Image"></p>
+  <p>
+    <b>Batting Style: </b> {{player.battingStyle}}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b>Bowling Style: </b> {{player.bowlingStyle}}
+  </p>
+  <h3>Profile:</h3>
+  <p>{{player.profile}}</p>
+  <!-- <mat-form-field>
+    <input matInput [(ngModel)]="data.animal">
+  </mat-form-field> -->
+</div>
+<div mat-dialog-actions>
+  <button class="close" mat-button (click) = "onNoClick()" >Close</button>
+</div>

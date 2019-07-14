@@ -1,9 +1,9 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
     <img class="image-class" src="assets\images\logo.png">
-    <button class="mat-button" mat-button [routerLink]="['/Search']">Search</button>
-    <button class="mat-button" mat-button>Favourites</button>
-    <button class="mat-button-wishlist" [routerLink]="['/WishList']" mat-button>Recommendations</button>
+    <button class="mat-button-search" mat-button [routerLink]="['/search']">Search</button>
+    <button class="mat-button-favourites" mat-button [routerLink]="['/favourites']">Favourites</button>
+    <button class="mat-button-recommendations" [routerLink]="['/recommendations']" mat-button>Recommendations</button>
     <button class="mat-button-logout" mat-button (click)="logout()">Logout</button>
 
     <!-- <mat-form-field class="searchField" appearance="legacy">

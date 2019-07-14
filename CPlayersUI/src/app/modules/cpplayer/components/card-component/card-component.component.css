@@ -1,16 +1,17 @@
 .example-card{
     display: flex;
     flex-direction: column;
-    height: 35vh;
-    width: 12vw;
-    margin: 2em;
+    height: 40vh;
+    width: 15vw;
+    margin: 0em;
     text-align: center;
     background-color: #424242;
-    margin-top: 0vh;
+    margin-top: 10vh;
+    /* margin-bottom: 5vh; */
 }
 
 .header{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Acme',sans-serif;
     margin: auto;
     color: #79e024;
 }
@@ -25,20 +26,26 @@
     margin: auto;
 }
 
-.mat-icons{
-    color: #fff;
+/* .mat-icons{
+    color: pink;
+} */
+
+
+.material-icons{
+    color: #79e024;
+    font-size: 3em;
+    /* margin-left: 10px; */
 }
 
-.mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent{
-    background-color: #79e024;
+.details {
+    margin-left: 5px;
+}
+
+.addButton {
     margin-left: 10px;
 }
 
-.material-icons{
-    color: #fff;
-}
-
-.mat-fab, .mat-flat-button, .mat-mini-fab, .mat-raised-button {
-    color: #424242;
-    background-color: #79e024;
+.mat-icon-button {
+    margin-right: 15px;
+    margin-left: 10px;
 }

@@ -1,0 +1,8 @@
+<div class="container">
+  <app-card-component 
+  *ngFor="let player of players" 
+  [player] = player
+  [favourites] = 'favourites'
+  (deletedPlayer) = 'deletePlayer($event)'>
+  </app-card-component>
+</div>

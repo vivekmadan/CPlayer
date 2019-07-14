@@ -3,3 +3,105 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media(max-width:575px){
+     body{
+        margin: -5px;
+    }
+    .mat-button{
+        font-size: 0.9em !important;
+    }
+
+    .image-class {
+        height: 7vh !important;
+    }
+
+    .example-card {
+        width: 80vw !important;
+        height: 30vh !important;
+        margin-top: 1em !important;
+        margin-bottom: 3em !important;
+    }
+
+    .image {
+        width: 60vw !important;
+    }
+
+    .mat-menu-item {
+        font-size: 0.9em !important;
+    }
+
+    .mat-card {
+        width: 70vw !important;
+        height: 48vh !important;
+        margin-bottom: 6vh !important;
+    }
+
+    .mat-card-actions .mat-button:first-child, .mat-card-actions .mat-raised-button:first-child {
+        margin-right: 10vw !important;
+    }
+
+    .my-form {
+        width: 55vw !important;
+    }
+
+    .mat-form-field {
+        margin-bottom: 0vh !important;
+    }
+
+    .mat-card-header .mat-card-title {
+        margin-bottom: 1vh !important;
+    }
+
+    .mat-form-field.field {
+        padding-left: 12vw !important;
+    }
+
+    .mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6 {
+        /* font: 100 10px Roboto,"Helvetica Neue",sans-serif; */
+        font-size: 0.7em;
+        margin: 0px;
+    }
+
+
+    .mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+        margin: -4px !important;
+        /*margin-left: 8px !important;
+        margin-right: 19px !important;*/
+    }
+
+    button.addButton.mat-icon-button.ng-star-inserted {
+        margin-left: 9vw !important;
+    }
+    button.deleteButton.mat-icon-button.ng-star-inserted {
+        margin-left: 9vw !important;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .mat-card {
+        margin-bottom: 14vh !important;
+    }
+
+    .example-card {
+        width: 25vw !important;
+    }
+
+    .image {
+        width: 20vw !important;
+    }
+
+    .mat-form-field.field {
+        padding-left: 68vw !important;
+    }
+}
+
+.mat-dialog-container {
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+    background: #fff;
+    color: #79e024;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    background-color: #424242;
+}
+

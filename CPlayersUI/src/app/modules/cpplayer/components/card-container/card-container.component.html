@@ -1,7 +1,7 @@
 <p>
   <mat-form-field class = "field" appearance="outline">
     <mat-label class = "label">Search Player</mat-label>
-    <input #searchBox matInput (keyup.enter) = "onEnter(searchBox.value)" class="input">
+    <input id="search" #searchBox matInput (keyup.enter) = "onEnter(searchBox.value)" class="input">
     <mat-icon matSuffix>
       <i class="material-icons">
         search

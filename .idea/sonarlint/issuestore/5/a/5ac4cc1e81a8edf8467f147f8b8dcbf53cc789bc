@@ -1,2 +1,3 @@
 
 squid:UselessImportCheck"TRemove this unused import 'org.springframework.amqp.rabbit.annotation.EnableRabbit'.(Šö‹¾8žöà†¶-
+hsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(¦ËˆE8Åýó¥¸-

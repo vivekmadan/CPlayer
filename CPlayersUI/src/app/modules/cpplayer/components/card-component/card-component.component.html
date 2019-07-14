@@ -1,13 +1,40 @@
-<mat-card class="example-card">
+<mat-card class="example-card" matBadge="{{player.count}}" matBadgePosition="after" matBadgeSize="medium" matBadgeColor="primary">
   <mat-card-header class="header">
     <mat-card-title>{{player.name}}</mat-card-title>
     <mat-card-subtitle>{{player.country}}</mat-card-subtitle>
   </mat-card-header>
   <img class="image" mat-card-image [src]="player.imageUrl" alt="Image">
   <mat-card-actions>
+    
+    <button class="details"
+    mat-icon-button    
+    matToolTip="Show Details"
+    (click)="showDialog()">
+    <i class="material-icons">
+      account_circle
+      </i>
+    </button>
 
-    <button mat-raised-button
-    matToolTip = "See Details">Details</button>
+    <button class="addButton"
+    *ngIf="!favourites && !recommendation"
+    mat-icon-button    
+    matToolTip="Add to Favourites"
+    (click)="addToFavourite()">
+    <i class="material-icons">
+      favorite
+      </i>
+    </button>
+
+    <button class="deleteButton"
+    *ngIf="favourites && !recommendation"
+    mat-icon-button    
+    matToolTip="Delete from Favourites"
+    (click)="deleteFromFavourites(player)">
+    <i class="material-icons">
+      delete
+      </i>
+    </button>
+
     <!-- <button class="addbutton"
     (click)="addToWishList(track)"
     matTooltip = "See Details"  
