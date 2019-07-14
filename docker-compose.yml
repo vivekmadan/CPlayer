@@ -9,7 +9,7 @@ services:
    test: "exit 0"
 
  userService:
-  image: vivekmadan/cpuserservice:v1
+  image: vivekmadan/cpuserservice:v2
   restart: always
   network_mode: host
   depends_on:
@@ -22,7 +22,7 @@ services:
     test: "exit 0"
    
  favouriteService:
-  image: vivekmadan/cpfavouriteservice:v1
+  image: vivekmadan/cpfavouriteservice:v2
   restart: always
   network_mode: host
   depends_on:
@@ -36,7 +36,7 @@ services:
     test: "exit 0"
 
  recommendationService:
-  image: vivekmadan/pcrecommendationservice:v1
+  image: vivekmadan/pcrecommendationservice:v2
   restart: always
   network_mode: host
   depends_on:
