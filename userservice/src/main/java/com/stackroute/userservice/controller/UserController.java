@@ -51,6 +51,10 @@ public class UserController {
         catch(UserNotFoundException e){
             throw new UserNotFoundException();
         }
+        
+        for(int i = 0; i < 1000000; i++){
+            System.out.println("Hello");
+        }
         return responseEntity;
     }
 }
