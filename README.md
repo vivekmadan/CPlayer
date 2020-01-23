@@ -1,4 +1,4 @@
-# CPlayers - A Case Study
+# CPlayers - A Case Study  --
 
 ## Problem Statement
 
